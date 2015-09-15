@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Number Guessing</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" media="screen">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--Random Javascript file -->
+  <script src="js/random.js"></script>
+
+</head>
+<body>
+  <div class="container">
+
+    <h2>Guess The Number</h2>
+    <div class="col-xs-2">
+      <label for="begin">From:</label>
+      <input type="number" class="form-control" id="begin">
+    </div>
+
+    <div class="col-xs-2">
+      <label for="end">To:</label>
+      <input type="number" class="form-control" id="end">
+    </div>
+
+    <button id="btn" onclick="number()">Generate Random Number</button>
+
+
+    <!-- <div id="display"></div> -->
+
+    <div class="col-xs-2" id="guess_input">
+      <label for="guess">Guess the number:</label>
+      <input type="number" class="form-control" id="guess_num">
+    </div>
+
+    <button id="button" onclick="numberGuess()">Guess The Number</button>
+
+    <div id="append"></div>
+
+  </div>  <!--End of container -->
+
+</body>
+</html>

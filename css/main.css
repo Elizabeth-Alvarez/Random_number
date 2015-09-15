@@ -1,0 +1,45 @@
+/*Main Stylesheet*/
+.container {
+  height: 480px;
+  width: 640px;
+  background-color: #edd0d0;
+  border: 1px solid silver;
+  margin-top: 5%;
+  margin-left: 25%;
+  padding-right: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+  color: #f82727;
+}
+
+.col-xs-2 {
+  margin-left: 0px;
+  padding-right: 10px;
+}
+
+#btn {
+  margin-top: 40px;
+  display: block;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+#guess_input {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#button {
+  margin-top: 50px;
+}
+
+#append {
+  height: 60px;
+  width: 300px;
+  margin-top: 30px;
+  padding: 5px;
+  color: #f82727;
+}
